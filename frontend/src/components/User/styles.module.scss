@@ -1,0 +1,212 @@
+.navbar {
+    backdrop-filter: blur(27.5px);
+    max-height: 100px;
+    width: 95%;
+    z-index: 1000;
+    margin-top: 20px;
+    /* You might want to remove or adjust this if you really want it centered */
+    border-radius: 15px;
+    border: 2px solid #484746;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    /* or 'absolute' if you don't need it to be fixed while scrolling */
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+
+    input {
+        left: 40px;
+        width: 100%;
+        border: none;
+        border-radius: 15px;
+        font-size: 16px;
+        padding: 10px 15px;
+        font-style: normal;
+        width: 468px;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .navbarLink {
+        color: #FFF;
+        font-family: Abel;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .dropdown {
+        border-radius: 0px 0px 35px 35px;
+        background: #262626;
+        position: absolute;
+        top: 47px;
+        width: 95%;
+        min-height: 18  0px;
+        border-top: 2px solid rgba(56, 56, 56, 0.00);
+        filter: drop-shadow(0px 4px 5.4px rgba(0, 0, 0, 0.40));
+
+        &::before {
+            content: "";
+            width: 70%;
+            left: 30px;
+            height: 1px;
+            display: block;
+            position: absolute;
+            top: -4px;
+            background: linear-gradient(90deg, #000 15.85%, #FF7F2A 51.65%, #000 85.4%);
+        }
+
+        &::after {
+            content: "";
+            width: 100%;
+            height: 20px;
+            display: block;
+            position: absolute;
+            top: -12px;
+        }
+    }
+
+}
+
+.modalContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    /* or 'absolute', depending on your layout */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Overlay */
+}
+
+.modal-content {
+    width: 400px;
+    background-color: #000000e8;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profileBanner {
+    z-index: -1;
+
+    .profileLinear {
+        width: 237px;
+        height: 2px;
+        // flex-shrink: 0;
+        background: linear-gradient(90deg, #000 15.85%, #FF7F2A 51.65%, #000 85.4%);
+    }
+
+    .buttonFollow {
+        background: #696969;
+        padding: 12px 20px;
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: 1px;
+        border-radius: 100px;
+        // box-shadow:inset 0 -2px 51px rgba(0, 0, 0, 0.5);
+
+        box-shadow: rgba(0, 0, 0, 0.7) 0px 20px 5px -12px inset;
+        margin-bottom: 30px;
+    }
+
+    .Achievments {
+        height: 200px;
+        background-color: rgba(17, 17, 17, 0.90);
+        width: 100%;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px;
+        padding-left: 55px;
+        padding-right: 55px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .tradeInfo {
+            display: flex;
+            gap: 45px;
+            text-align: center;
+        }
+    }
+
+    .Achievments>div {
+        padding: 0 40px 0 40px;
+    }
+}
+
+// .profileContent {}
+
+// .profileTabs {}
+
+// .profileSidebar {}
+
+.slider::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    background: linear-gradient(to top, rgba(17, 17, 17, 1) 20%, rgba(0, 0, 0, 0) 100%);
+}
+
+.shadow_box {
+    background-color: #3f3f3f;
+    border: 2px solid #656565;
+    padding: 5px 0px;
+    border-radius: 15px;
+    box-shadow: inset 0px 10px 10px -10px #323232;
+    /* Inset shadow from the top */
+}
+
+//   #323232
+.loader {
+    border: 16px solid rgba(255, 255, 255, 0.3);
+    /* Light grey */
+    border-top: 16px solid #ffffff;
+    /* White */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+.customscrollbar::-webkit-scrollbar {
+    width: 10px;
+}
+
+.customscrollbar::-webkit-scrollbar-track {
+    background: #333;
+    border: 2px solid #fff;
+    border-radius: 20px;
+}
+
+.customscrollbar::-webkit-scrollbar-thumb {
+    background-color: #ff7f2a;
+    border-radius: 10px;
+}
+
+.customscrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: #cf6b29;
+}
+

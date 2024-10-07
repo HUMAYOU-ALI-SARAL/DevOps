@@ -1,0 +1,21 @@
+{
+  "name": "Fan INO Card #3",
+  "creator": "Sphera World",
+  "description": "Dive into the exhilarating universe of Sphera World - This NFT is a passport to a realm of digital fandom! Unlock exclusive early access to the Sphera token. Enter the Sphera launch raffle and claim free Sphera World Jersey NFTs on release. Get ready for an adventure in sports and digital collectibles!",
+  "image": "ipfs://QmfGuBAHfBzDGtHd5NwWF1wUwzzp7WUCVj6AP2VoDrHeK8/3.png",
+  "type": "image/png",
+  "attributes": [
+    {
+      "trait_type": "Tier",
+      "value": "Fan"
+    },
+    {
+      "trait_type": "Tokens",
+      "value": "1500"
+    },
+    {
+      "trait_type": "Jersey NFT",
+      "value": "1"
+    }
+  ]
+}

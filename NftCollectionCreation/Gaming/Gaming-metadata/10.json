@@ -1,0 +1,21 @@
+{
+  "name": "Gaming Legends NFT Collection #10",
+  "creator": "Sphera World",
+  "description": "Experience the thrill of gaming with this exclusive NFT collection from Sphera World. Each NFT is your ticket to the world of gaming, offering unique perks and privileges. Get ready to immerse yourself in the thrilling world of gaming!",
+  "image": "ipfs://QmZToTpeKGptDzPWm93C9KFRhYnnH5rbVKL4B4PFJGg4oh/NFT 10.png",
+  "type": "image/png",
+  "attributes": [
+    {
+      "trait_type": "Sport",
+      "value": "Gaming"
+    },
+    {
+      "trait_type": "Tokens",
+      "value": "10"
+    },
+    {
+      "trait_type": "Gaming NFT",
+      "value": "1"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "MMA Legends NFT Collection #7",
+  "creator": "Sphera World",
+  "description": "Immerse yourself in the world of MMA with this exclusive NFT collection from Sphera World. Each NFT is your gateway to a realm of digital MMA fandom, offering unique perks and privileges. Get ready to experience the excitement of MMA like never before!",
+  "image": "ipfs://QmaVGtA1ye3a2TuqKriNJseF8JhWYbL2jUtbtZvWXQwsMu/NFT 7.png",
+  "type": "image/png",
+  "attributes": [
+    {
+      "trait_type": "Sports",
+      "value": "MMA"
+    },
+    {
+      "trait_type": "Tokens",
+      "value": "10"
+    },
+    {
+      "trait_type": "MMA NFT",
+      "value": "1"
+    }
+  ]
+}

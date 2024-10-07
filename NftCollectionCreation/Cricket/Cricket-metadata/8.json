@@ -1,0 +1,21 @@
+{
+  "name": "Cricket Legends NFT Collection #8",
+  "creator": "Sphera World",
+  "description": "Experience the thrill of cricket with this exclusive NFT collection from Sphera World. Each NFT is your ticket to the world of cricket, offering unique perks and privileges. Get ready to immerse yourself in the thrilling world of cricket!",
+  "image": "ipfs://QmZqydqCKh8qGTRERkKuco4LcsFV4RZPcfnSxcstg1hSzp/NFT 8.png",
+  "type": "image/png",
+  "attributes": [
+    {
+      "trait_type": "Sport",
+      "value": "Cricket"
+    },
+    {
+      "trait_type": "Tokens",
+      "value": "10"
+    },
+    {
+      "trait_type": "Cricket NFT",
+      "value": "1"
+    }
+  ]
+}

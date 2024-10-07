@@ -1,0 +1,21 @@
+{
+  "name": "Football Legends NFT Collection #9",
+  "creator": "Sphera World",
+  "description": "Experience the thrill of football with this exclusive NFT collection from Sphera World. Each NFT is your ticket to the world of football, offering unique perks and privileges. Get ready to immerse yourself in the thrilling world of football!",
+  "image": "ipfs://QmcWZ5ye1cSvLvF1Jro2v9QvF1vYtbASydP3ndJudMTaqw/football9.png",
+  "type": "image/png",
+  "attributes": [
+    {
+      "trait_type": "Sport",
+      "value": "Football"
+    },
+    {
+      "trait_type": "Tokens",
+      "value": "10"
+    },
+    {
+      "trait_type": "Football NFT",
+      "value": "1"
+    }
+  ]
+}

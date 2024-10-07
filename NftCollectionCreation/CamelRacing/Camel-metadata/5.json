@@ -1,0 +1,21 @@
+{
+  "name": "Camel Racing NFT Collection #5",
+  "creator": "Sphera World",
+  "description": "Experience the excitement of camel racing with this exclusive NFT collection from Sphera World. Each NFT is your ticket to the world of camel racing, offering unique perks and privileges. Get ready to immerse yourself in the thrilling world of camel racing!",
+  "image": "ipfs://QmSkSo7X5vgdn6X6vyLP6UXL3yURqqwrbrh1fdabdNtXAT/NFT 5.png",
+  "type": "image/png",
+  "attributes": [
+    {
+      "trait_type": "Sport",
+      "value": "Camel Racing"
+    },
+    {
+      "trait_type": "Tokens",
+      "value": "10"
+    },
+    {
+      "trait_type": "Camel Racing NFT",
+      "value": "1"
+    }
+  ]
+}

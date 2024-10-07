@@ -1,0 +1,21 @@
+{
+  "name": "Basketball NFT Collection #7",
+  "creator": "Sphera World",
+  "description": "Immerse yourself in the thrilling world of basketball with this exclusive NFT collection from Sphera World. Each NFT is a gateway to a realm of digital sports fandom, offering unique perks and privileges!",
+  "image": "ipfs://QmbgcnXcrBCM64cUj3rQG78aZD6wYW3zjSwmNkCdmFR6RQ/NFT 7.png",
+  "type": "image/png",
+  "attributes": [
+    {
+      "trait_type": "Sport",
+      "value": "Basketball"
+    },
+    {
+      "trait_type": "Tokens",
+      "value": "10"
+    },
+    {
+      "trait_type": "Basketball NFT",
+      "value": "1"
+    }
+  ]
+}

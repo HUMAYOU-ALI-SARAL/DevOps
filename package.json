@@ -1,0 +1,63 @@
+{
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "devDependencies": {
+    "@types/acorn": "^6.0.0",
+    "@types/node": "^22.5.2",
+    "@types/qrcode": "^1.5.5",
+    "@types/react-collapse": "^5.0.4",
+    "@types/react-datepicker": "^4.19.5",
+    "dotenv-cli": "^7.3.0",
+    "tailwind-scrollbar": "^3.0.5",
+    "turbo": "^1.13.4"
+  },
+  "scripts": {
+    "dev": "turbo run clean && dotenv -- turbo run dev --parallel",
+    "clean": "turbo run clean",
+    "build": "dotenv -- turbo run build --parallel",
+    "start": "npm run build && dotenv -- turbo run start --parallel",
+    "nft:create": "node ./nft-creation/create-nft.js",
+    "nft:mint": "node ./nft-creation/mint-nft.js",
+    "nft:create-basketball": "node ./NftCollectionCreation/Basketball/create-nft.js",
+    "nft:mint-basketball": "node ./NftCollectionCreation/Basketball/mint-nft.js",
+    "nft:create-boxing": "node ./NftCollectionCreation/Boxing/create-nft.js",
+    "nft:mint-boxing": "node ./NftCollectionCreation/Boxing/mint-nft.js",
+    "nft:create-camel-racing": "node ./NftCollectionCreation/CamelRacing/create-nft.js",
+    "nft:mint-camel-racing": "node ./NftCollectionCreation/CamelRacing/mint-nft.js",
+    "nft:create-cricket": "node ./NftCollectionCreation/Cricket/create-nft.js",
+    "nft:mint-cricket": "node ./NftCollectionCreation/Cricket/mint-nft.js",
+    "nft:create-Football": "node ./NftCollectionCreation/FootBall/create-nft.js",
+    "nft:mint-Football": "node ./NftCollectionCreation/FootBall/mint-nft.js",
+    "nft:create-Formula": "node ./NftCollectionCreation/Formula1/create-nft.js",
+    "nft:mint-Formula": "node ./NftCollectionCreation/Formula1/mint-nft.js",
+    "nft:create-Gaming": "node ./NftCollectionCreation/Gaming/create-nft.js",
+    "nft:mint-Gaming": "node ./NftCollectionCreation/Gaming/mint-nft.js",
+    "nft:create-MMA": "node ./NftCollectionCreation/MMA/create-nft.js",
+    "nft:mint-MMA": "node ./NftCollectionCreation/MMA/mint-nft.js",
+    "nft:create-Moto": "node ./NftCollectionCreation/Motocross/create-nft.js",
+    "nft:mint-Moto": "node ./NftCollectionCreation/Motocross/mint-nft.js",
+    "nft:create-Rally": "node ./NftCollectionCreation/RallyDriving/create-nft.js",
+    "nft:mint-Rally": "node ./NftCollectionCreation/RallyDriving/mint-nft.js"
+  },
+  "dependencies": {
+    "@nestjs/typeorm": "^10.0.2",
+    "concurrently": "^8.2.2",
+    "date-fns": "^3.1.0",
+    "dotenv": "^16.4.5",
+    "dotenv-cli": "^7.3.0",
+    "ethers": "^5.7.2",
+    "qrcode": "^1.5.3",
+    "react-collapse": "^5.1.1",
+    "react-datepicker": "^5.0.0",
+    "react-easy-crop": "^5.0.8",
+    "react-faq-component": "^1.3.4",
+    "react-images-uploading": "^3.1.7",
+    "react-modal": "^3.16.1",
+    "react-select": "^5.8.0",
+    "react-tooltip": "^5.25.2",
+    "recharts": "^2.11.0",
+    "web3": "^4.11.0"
+  }
+}

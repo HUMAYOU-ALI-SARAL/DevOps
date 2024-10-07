@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+    <html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Email Template</title>
+        <style>
+            body {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                color: #333;
+                margin: 0;
+                padding: 0;
+                background-color: #f5f5f5;
+            }
+    
+            .container {
+                width: 100%;
+                max-width: 600px;
+                margin: auto;
+                background-color: #fff;
+                border-radius: 10px;
+                overflow: hidden;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+    
+            .header {
+                background: linear-gradient(90deg, #FF7F2A 0%, #FF7F2A 100%);
+                color: #fff;
+                text-align: center;
+                padding: 10px;
+            }
+    
+            .content {
+                padding: 30px;
+                background-color: #f0f0f0;
+            }
+    
+            .content p {
+                font-size: 16px;
+                line-height: 1.5;
+                color: #555;
+            }
+    
+            .otp-box {
+                background: linear-gradient(90deg, #FF7F2A 0%, #FF7F2A 100%);
+                padding: 20px;
+                text-align: center;
+            }
+    
+            .otp-box p {
+                font-size: 20px;
+                font-weight: bold;
+                margin: 0;
+                color: #000;
+            }
+    
+            .footer {
+                text-align: center;
+                padding: 20px;
+                background-color: #f0f0f0;
+                border-top: 1px solid #ddd;
+                font-weight: 600;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1 style="color:#000000; ">Email Verification</h1>
+            </div>
+            <div class="content">
+                <p>Hello,</p>
+                <p>Welcome to Sphera World! We're excited to have you on board.</p>
+                <p>Sphera World revolutionizes the way you collect, connecting you with the world of sports like never before. Get early access to the Sphera platform with the free Sphera Head access NFT.</p>
+            </div>
+            <div class="otp-box">
+                <p>Email Validation OTP</p>
+                <p style="font-size: 36px; color:#000000; letter-spacing: 20px;  margin-left: 22px;">${{{otp}}}</p>
+            </div>
+            <div class="footer">
+                <p>Thank you for choosing Sphera World.</p>
+            </div>
+        </div>
+    </body>
+    </html>

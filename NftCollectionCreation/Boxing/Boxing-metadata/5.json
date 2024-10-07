@@ -1,0 +1,21 @@
+{
+  "name": "Boxing Legends NFT Collection #5",
+  "creator": "Sphera World",
+  "description": "Immerse yourself in the world of boxing with this exclusive NFT collection from Sphera World. Each NFT is your gateway to a realm of digital boxing fandom, offering unique perks and privileges. Get ready to experience the excitement of boxing like never before!",
+  "image": "ipfs://QmPZxzXpZbnADKPuCsWW2uYKSoayM2qHr3S5DNXqmLSBYf/NFT 5.png",
+  "type": "image/png",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "Boxing"
+    },
+    {
+      "trait_type": "Tokens",
+      "value": "10"
+    },
+    {
+      "trait_type": "Boxing NFT",
+      "value": "1"
+    }
+  ]
+}

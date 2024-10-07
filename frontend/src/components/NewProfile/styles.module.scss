@@ -1,0 +1,186 @@
+.navbar {
+    background: rgba(48, 48, 48, 0.10);
+    backdrop-filter: blur(27.5px);
+
+    input {
+        left: 40px;
+        width: 100%;
+        border: none;
+        border-radius: 15px;
+        font-size: 16px;
+        padding: 10px 15px;
+        font-style: normal;
+        width: 468px;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .navbarLink {
+        color: #FFF;
+        font-family: Abel;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .dropdown {
+        border-radius: 0px 0px 35px 35px;
+        background: #262626;
+        position: absolute;
+        top: 47px;
+        width: 95%;
+        min-height: 180px;
+        border-top: 2px solid rgba(56, 56, 56, 0.00);
+        filter: drop-shadow(0px 4px 5.4px rgba(0, 0, 0, 0.40));
+
+        &::before {
+            content: "";
+            width: 70%;
+            left: 30px;
+            height: 1px;
+            display: block;
+            position: absolute;
+            top: -4px;
+            background: linear-gradient(90deg, #000 15.85%, #FF7F2A 51.65%, #000 85.4%);
+        }
+
+        &::after {
+            content: "";
+            width: 100%;
+            height: 20px;
+            display: block;
+            position: absolute;
+            top: -12px;
+        }
+    }
+
+}
+
+.profileBanner {
+    width: 100%;
+
+    .profileLinear {
+        width: 237px;
+        height: 2px;
+        flex-shrink: 0;
+        background: linear-gradient(90deg, #000 15.85%, #FF7F2A 51.65%, #000 85.4%);
+    }
+
+    .buttonInnerShadow {
+        box-shadow: inset 0px 0px 20px 10px rgba(0, 0, 0, 0.8);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        background-color: rgba(77, 77, 77, 255);
+        border-top: 1px solid white;
+    }
+
+    .badgeCount {
+        box-shadow: inset 0px 0px 20px 10px rgba(0, 0, 0, 0.8);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        background-color: rgba(77, 77, 77, 255);
+        border-top: 1px solid white;
+    }
+
+}
+
+.profileContent {}
+
+.profileTabs {
+    box-shadow: 0px 0px 20px 12px #000;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background-color: rgb(25, 25, 25);
+    overflow: hidden;
+
+    .tabBtn {
+        box-shadow: inset 0px 15px 10px -10px rgba(0, 0, 0, 0.7);
+        background-color: rgba(77, 77, 77, 255);
+        border-top: 1px solid white;
+    }
+
+    .tabBtn:hover {
+        border: 1px solid white;
+        box-shadow: inset 0px 0px 20px 10px rgba(0, 0, 0, 1);
+        box-shadow: 0px 0px 6px 3px #FF7F2A;
+        background-color: #4D4D4D;
+        color: #FF7F2A;
+    }
+}
+
+.MyCollections {
+    .Badges {
+        box-shadow: inset 0px 20px 10px -10px rgba(0, 0, 0, 0.7);
+        background-color: rgba(77, 77, 77, 255);
+        border-top: 1px solid white;
+        border-radius: 30px;
+        padding: 20px;
+    }
+
+    .badgeCount {
+        box-shadow: inset 0px 0px 20px 10px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        padding: 20px;
+        background-color: rgba(77, 77, 77, 255);
+        border-top: 1px solid white;
+    }
+
+    .withDrawBalance {
+        box-shadow: inset 0px 15px 10px -10px rgba(0, 0, 0, 0.7);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        background-color: rgba(77, 77, 77, 255);
+        border-top: 1px solid white;
+    }
+
+    .highlightCards {
+        box-shadow: inset 0px 15px 10px -10px rgba(0, 0, 0, 0.7);
+        background-color: rgba(77, 77, 77, 255);
+        border-top: 1px solid white;
+        height: 140px;
+        width: 140px;
+        border-radius: 40px;
+    }
+}
+
+.cardShahdow {
+    box-shadow: inset 0px 15px 10px -10px rgba(0, 0, 0, 0.7);
+    background-color: rgba(77, 77, 77, 255);
+    border-top: 1px solid white;
+}
+
+.ItemGrid {
+    .customScrollbar::-webkit-scrollbar {
+        width: 10px;
+        border: 1px solid white;
+        border-radius: 5px; 
+    }
+
+    .customScrollbar::-webkit-scrollbar-thumb {
+        background-color: orange;
+        border-radius: 5px;
+    }
+
+    .customScrollbar::-webkit-scrollbar-track {
+        background-color: transparent;
+    }
+
+}
+
+.ItemsGridBody {
+    .ItemCard {
+        border-radius: 30px;
+        border: 2px solid white;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .ItemCard::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 70%;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
+    }
+
+}

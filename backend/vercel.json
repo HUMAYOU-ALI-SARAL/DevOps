@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "functions": {
+    "dist/main.js": {
+      "runtime": "@vercel/node@3"
+    }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "dist/main.js",
+      "methods": ["GET", "POST", "PUT", "PATCH", "DELETE", "HEAD", "OPTIONS"]
+    }
+  ]
+}

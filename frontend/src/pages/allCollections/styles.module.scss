@@ -1,0 +1,24 @@
+.full {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    gap: 100px;
+    padding-bottom: 50px;
+    background: linear-gradient(to bottom, #593721 20%, rgba(0, 0, 0, 0.7) 80%);
+  }
+  
+  .full .collections {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .full .collections p {
+    font-weight: 300;
+  }
+  

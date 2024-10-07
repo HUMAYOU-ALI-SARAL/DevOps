@@ -1,0 +1,21 @@
+{
+  "name": "Rally Legends NFT Collection #7",
+  "creator": "Sphera World",
+  "description": "Immerse yourself in the world of rally driving with this exclusive NFT collection from Sphera World. Each NFT is your gateway to a realm of digital rally driving fandom, offering unique perks and privileges. Get ready to experience the excitement of rally driving like never before!",
+  "image": "ipfs://QmesiAToVZt3su5wWHyjByFfaiV2zY2cQEEqyT7Uv17bu5/NFT 7.png",
+  "type": "image/png",
+  "attributes": [
+    {
+      "trait_type": "Category",
+      "value": "Rally Driving"
+    },
+    {
+      "trait_type": "Tokens",
+      "value": "10"
+    },
+    {
+      "trait_type": "Rally Driving NFT",
+      "value": "1"
+    }
+  ]
+}

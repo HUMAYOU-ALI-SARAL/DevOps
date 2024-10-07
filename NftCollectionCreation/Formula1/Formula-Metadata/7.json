@@ -1,0 +1,21 @@
+{
+  "name": "Formula 1 Legends NFT Collection #7",
+  "creator": "Sphera World",
+  "description": "Experience the speed and excitement of Formula 1 with this exclusive NFT collection from Sphera World. Each NFT is your ticket to the world of Formula 1, offering unique perks and privileges. Get ready to immerse yourself in the thrilling world of Formula 1!",
+  "image": "ipfs://QmcmGq84nXo1kyY6kYo3pRmNgc2WsfcJ43LFPtX9qnsaK2/NFT 7.png",
+  "type": "image/png",
+  "attributes": [
+    {
+      "trait_type": "Sport",
+      "value": "Formula 1"
+    },
+    {
+      "trait_type": "Tokens",
+      "value": "10"
+    },
+    {
+      "trait_type": "Formula 1 NFT",
+      "value": "1"
+    }
+  ]
+}

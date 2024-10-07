@@ -1,0 +1,21 @@
+{
+  "name": "Motocross Legends NFT Collection #1",
+  "creator": "Sphera World",
+  "description": "Immerse yourself in the world of motocross with this exclusive NFT collection from Sphera World. Each NFT is your gateway to a realm of digital motocross fandom, offering unique perks and privileges. Get ready to experience the excitement of motocross like never before!",
+  "image": "ipfs://QmXReYJWT5ZYx832K3p52m2HArRR4krJu9myqDzBE9vgVD/NFT 1.png",
+  "type": "image/png",
+  "attributes": [
+    {
+      "trait_type": "Racing",
+      "value": "Motocross"
+    },
+    {
+      "trait_type": "Tokens",
+      "value": "10"
+    },
+    {
+      "trait_type": "Motocross NFT",
+      "value": "1"
+    }
+  ]
+}
