@@ -5,9 +5,9 @@
   "description": "Spheraworld frontend",
   "author": "Hgraph <support@hgraph.io>",
   "scripts": {
-    "dev": "next dev --port ${NEXT_PORT-8080}",
+    "dev": "next dev --port ${NEXT_PORT-8081}",
     "build": "next build",
-    "start": "next start --port ${NEXT_PORT-8080}",
+    "start": "next start --port ${NEXT_PORT-8081}",
     "clean": "rm -rf dist",
     "lint": "next lint",
     "parse:locales": "i18next 'src/**/*.{tsx,ts}'"
